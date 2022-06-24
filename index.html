@@ -12,30 +12,25 @@
     <header>
         <nav>
             <div class="title">
-                <h1>
-               Leonardo Tolotti
-                </h1>
-                <h4>
-                Portifólio pessoal
-                </h4> 
+                <a href="#home">
+                <h1>Leonardo Tolotti</h1>
+                <h4>Portifólio pessoal</h4>    
+                </a>
             </div>
            <div class="menu">
             <ul>
-                <li>
-                    <a href="#home">Home</a>
-                </li>
-                <li>
-                    <a href="#projetos">Projetos</a>
-                </li>
-                <li>
-                    <a href="#contato">Contato</a>
-                </li>
+                <a href="#home">
+                <li><p>Home</p></li>  
+                </a>
+               <a href="#projetos">
+                <li><p>Projetos</p></li>
+               </a>
+                <a href="#contato">
+                  <li><p>Contato</p></li>  
+                </a> 
             </ul>
            </div>
-            
-            
-        </nav>
-        
+        </nav> 
     </header>
     <main>
         <section id="home">
@@ -44,7 +39,9 @@
                     <h1>Olá, sou Leonardo Tolotti</h1>
                     <p>FullStack Developer </p>
                     <p>Programador web em desenvolvimento</p>
-                    <button>Projetos <img src="./public/images/right-arrows.png" alt=""></button>
+                    <a href="#projetos">
+                    <button>Projetos <img src="./public/images/right-arrows.png" alt=""></button>    
+                    </a>
                 </div>
                 <div class="photo">
                     <img src="./public/images/logo.png" alt="">
@@ -52,7 +49,9 @@
             </div>
         </section>
         <section id="projetos">
-
+            <div id="projetos-git">
+                
+            </div>
         </section>
         <section id="contato">
             <div class="contatos">
@@ -75,13 +74,21 @@
                 </div> 
                 </div>
             <div class="end">
-                <p>Em constante desenvolvimento, sempre buscando conhecimento!!</p>
+                <div class="button-up">
+                   <a href="#home">
+                    <button><img src="./public/images/up-arrow.png" alt=""></button>
+                    </a> 
+                </div>
+                <div class="text">
+                   <p>Em constante desenvolvimento, sempre buscando conhecimento!!</p> 
+                </div>
+                
             </div>    
             </div>
             
         </section>
     </main>
     
-    
+    <script src="script.js"></script>
 </body>
 </html>

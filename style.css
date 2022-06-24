@@ -31,8 +31,13 @@ nav{
 }
 .title{
     text-align: end;
-    color: whitesmoke;
+    
     cursor: pointer;
+    
+}
+.title a {
+    text-decoration: none;
+    color: whitesmoke;
 }
 .menu ul li{
     font-size: 20px;
@@ -45,9 +50,9 @@ nav{
     cursor: pointer;
 }
 .menu ul li:hover{
-    background: black;
+    background: #F47200;
 }
-.menu ul li a{
+.menu ul a{
     color: whitesmoke;
     text-decoration: none;
 }
@@ -76,6 +81,9 @@ section{
     font-size: 18px;
     margin: 5px;
 }
+.text a{
+    text-decoration: none;
+}
 .text button{
     width: 150px;
     height: 50px;
@@ -98,6 +106,30 @@ section{
     justify-content: center;
     height: calc(100vh - 100px);
 }
+#projetos-git{
+    height: 80vh;
+    background: white;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 10px;
+}
+#projetos-git a {
+    text-decoration: none;
+    color: black;
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+#projetos-git a ul{
+    list-style: none;
+}
+
+
 .redes{
     display: flex;
     align-items: center;
@@ -123,7 +155,8 @@ section{
     height: 80px;  
     margin: 10px;
     padding: 3px;
-}.imgContato a{
+}
+.imgContato a{
     text-decoration: none;
     color: whitesmoke; 
     text-align: center;
@@ -132,9 +165,32 @@ section{
 .end{
     margin: 10px;
     width: 1120px;
-    height: 30px;
-    text-align: center;
-    justify-content: center;
+    height: 50px;
     color: whitesmoke;
     font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.end .button-up{
+    align-content: flex-start;
+    width: 100%;
+}
+.end .button-up a{
+    text-decoration: none;
+
+}
+.end .button-up a button{
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+}
+.end .button-up a button img{
+    width: 25px;
+    height: 25px;
+    
 }
