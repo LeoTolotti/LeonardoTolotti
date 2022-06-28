@@ -21,6 +21,7 @@ header{
     justify-content: center;
     border-bottom: 1px solid white;
     position: fixed;
+    z-index: 9;
 }
 nav{
     width: 1120px;
@@ -100,36 +101,98 @@ section{
     height: 30px;
     text-align: end;
 }
+.imgBox
+{
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 40px auto;
+}
+.imgBox .swiper
+{
+    margin: 10px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.imgBox .swiper .swiper-wrapper .swiper-slide 
+{
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 500px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    border: 2px solid whitesmoke;
+    border-radius: 12px;
+    box-shadow: 4px 4px 2px rgba(26, 25, 25, 0.719);
+    padding: 15px;
+}
+.imgBox .swiper .swiper-wrapper .swiper-slide:hover
+{
+    background-color: rgb(87, 85, 85);
+}
+.imgBox .swiper .swiper-wrapper .swiper-slide .div-imagem
+{
+    width: 100%;
+    height: auto;
+}
+.imgBox .swiper .swiper-wrapper .swiper-slide img
+{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+.imgBox .swiper .swiper-wrapper .swiper-slide h1
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
+.imgBox .swiper .swiper-wrapper .swiper-slide p
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.imgBox .swiper .swiper-wrapper .swiper-slide a
+{
+    margin: auto;
+    width: 100px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+    border-radius: 12px;
+    box-shadow: 4px 4px 2px rgba(26, 25, 25, 0.719);
+ }
+ .imgBox .swiper .swiper-wrapper .swiper-slide a:hover
+{
+    background-color: #F47200;
+ }
+.swiper-3d .swiper-slide-shadow-right 
+{
+    background-image: none;
+}
+.swiper-3d .swiper-slide-shadow-left
+{
+    background-image: none;
+}
 .contatos{
     display: grid;
     align-items: center;
     justify-content: center;
     height: calc(100vh - 100px);
 }
-#projetos-git{
-    height: 80vh;
-    background: white;
-    margin: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px 10px;
-}
-#projetos-git a {
-    text-decoration: none;
-    color: black;
-    width: 200px;
-    height: 200px;
-    background-color: gray;
-    border: 2px solid black;
-    border-radius: 10px;
-
-}
-#projetos-git a ul{
-    list-style: none;
-}
-
-
 .redes{
     display: flex;
     align-items: center;
@@ -192,5 +255,8 @@ section{
 .end .button-up a button img{
     width: 25px;
     height: 25px;
-    
 }
+.end .text{
+    transform: translateY(-37px);
+}
+
