@@ -42,8 +42,7 @@ function getGitHubAPI() {
 
 }
   function getImg(name){
-    console.log(name);
-    fetch("https://api.github.com/repos/LeoTolotti/" + name + "/contents/public/images")
+    fetch("https://api.github.com/repos/LeoTolotti/" + name + "/contents/public/imagens")
     .then(async res => {
     console.log(res);
     if (!res.ok) {
