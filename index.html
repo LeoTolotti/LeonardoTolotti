@@ -1,32 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <title>Leonardo Tolotti | DEV</title>
+    <link rel="shortcut icon" href="./public/imagens/code-outline.svg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./public/imagens/programador.png" type="image/x-icon">
-    <title>Leonardo | Dev</title>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
     <header>
         <nav>
-            <div class="title">
-                <a href="#home">
-                <h1>Leonardo Tolotti</h1>
-                <h4>Portifólio pessoal</h4>    
-                </a>
-            </div>
            <div class="menu">
             <ul>
                 <a href="#home">
                 <li><p>Home</p></li>  
                 </a>
-               <a href="#projetos">
+                <a href="#about">
+                    <li><p>Sobre</p></li>  
+                    </a>
+               <a href="#portifolio">
                 <li><p>Projetos</p></li>
                </a>
-                <a href="#contato">
+               <a href="#service">
+                <li><p>Serviços</p></li>
+               </a>
+                <a href="#contact">
                   <li><p>Contato</p></li>  
                 </a> 
             </ul>
@@ -38,61 +40,201 @@
             <div class="container">
                 <div class="text">
                     <h1>Olá, sou Leonardo Tolotti</h1>
-                    <p>FullStack Developer </p>
                     <p>Programador web em desenvolvimento</p>
-                    <a href="#projetos">
-                    <button>Projetos <img src="./public/imagens/right-arrows.png" alt=""></button>    
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="about">
+              <div class="textAbout">
+                <h1>SOBRE MIM</h1>
+                <p>Meu nome é Leonardo Tolotti, desde de pequeno sempre fui aficionado por tecnologia, por games, filmes, 
+                    e pelos computadores em si, sempre fui curioso para saber como as coisas funcionam, e no ano de 2021 
+                    decidi entender como funciona a programação, no ano de 2022 estou me formando no curso JavaScript FullStack 
+                    da escola OneBitCode de programação. Com muita vontade de por em pratica todo conhecimento que adquiri.
+                </p>
+            </div>
+            <div class="skills">
+                <div>
+                    <div class="photoInfos">
+                        <img src="./public/imagens/me.jpeg" alt="">
+                    </div>
+                    <div class="textInfos">
+                        <p><span class="textGreen">Nome:</span> Leonardo Tolotti</p>
+                        <p><span class="textGreen">Data Nascimento:</span> 08 de Julho de 1996</p>
+                        <p><span class="textGreen">Fone:</span> (54) 99917-7881</p>
+                        <p><span class="textGreen">E-mail:</span> leotolotti@hotmail.com</p>
+                    </div>
+                </div>
+                <div class="skillsInfos">
+                    <div>
+                    <h1>SKILLS</h1>    
+                    </div>
+                    <div>
+                        <h4>HTML & CSS</h4>
+                        <div class="progress-bar80"></div>
+                    </div>
+                    <div>
+                        <h4>JAVASCRIPT</h4>
+                        <div class="progress-bar70"></div>
+                    </div>
+                    <div>
+                        <h4>REACT</h4>
+                        <div class="progress-bar50"></div>
+                    </div>
+                    <div>
+                        <h4>TYPESCRIPT</h4>
+                        <div class="progress-bar35"></div>
+                    </div>
+                </div>
+            </div>  
+            </div>
+            
+        </section>
+        <section id="portifolio">
+            <div class="portifolio">
+                <div class="titlePortifolio">
+                    <h1>PORTIFOLIO</h1>
+                </div>
+                <div class="projetos">
+                    <div class="projeto">
+                        <img src="./public/imagens/1.jpg" alt="" class="image">
+                        <div class="overlay">
+                            <div class="textProjeto">Hello World</div>
+                            <div class="iconProjeto">
+                            <a href="http://127.0.0.1:5500/projetos.html">
+                            <ion-icon name="search-outline"></ion-icon>   
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projeto">
+                        <img src="./public/imagens/1.jpg" alt="" class="image">
+                        <div class="overlay">
+                            <div class="textProjeto">Hello World</div>
+                            <div class="iconProjeto">
+                            <a href="http://127.0.0.1:5500/projetos.html">
+                            <ion-icon name="search-outline"></ion-icon>   
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projeto">
+                        <img src="./public/imagens/1.jpg" alt="" class="image">
+                        <div class="overlay">
+                            <div class="textProjeto">Hello World</div>
+                            <div class="iconProjeto">
+                            <a href="http://127.0.0.1:5500/projetos.html">
+                            <ion-icon name="search-outline"></ion-icon>   
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projeto">
+                        <img src="./public/imagens/1.jpg" alt="" class="image">
+                        <div class="overlay">
+                            <div class="textProjeto">Hello World</div>
+                            <div class="iconProjeto">
+                            <a href="http://127.0.0.1:5500/projetos.html">
+                            <ion-icon name="search-outline"></ion-icon>   
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="buttomProjetos">
+                    <a href="http://127.0.0.1:5500/projetos.html">VER MAIS</a>
+                </div>
+            </div>
+            
+        </section>
+        <section id="service">
+            <div class="service">
+                <div class="textService">
+                <h1>SERVIÇOS</h1>
+                </div>
+            <div class="iconService">
+                <div>
+                    <ion-icon name="desktop-outline"></ion-icon>
+                    <h2>Front-End</h2>
+                    <p>Desenvolvo interfaces gráficas para usuários em geral.
+                       Interfaces atrativas, interessantes e com boa 
+                       experiência de navegação.</p>
+                </div>
+                <div>
+                    <ion-icon name="terminal-outline"></ion-icon>
+                    <h2>Back-End</h2>
+                    <p>Atuo por trás da interface deixando o sistema funcionando.
+                        Programo e testo a integridade das informações do banco de dados.
+                    </p>
+                </div>
+            </div>
+            <div class="iconServiceConcluido">
+                <div>
+                    <ion-icon name="flag-outline"></ion-icon>
+                    <h2>8+</h2>
+                    <p>Projetos Concluidos</p>
+                </div>
+            </div> 
+            </div>
+            
+        </section>
+        <section id="contact">
+            <div class="contato">
+                <div class="textContact">
+                <h1>CONTATO</h1>
+            </div>
+            <div class="redes">
+                <div>
+                    <a href="https://www.linkedin.com/in/leonardo-tolotti-4b9646232/" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                    <p>LINKEDIN</p>  
                     </a>
                 </div>
-                <div class="photo">
-                    <img src="./public/imagens/logo.png" alt="">
+                <div>
+                    <a href="https://github.com/LeoTolotti" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                    <p>GITHUB</p>  
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/leotolotti_/" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <p>INSTAGRAM</p>  
+                    </a>
+                </div>
+                <div>
+                    <a href="https://wa.me/5554999177881" target="_blank">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                    <p>WHATSAPP</p> 
+                    </a>
                 </div>
             </div>
-        </section>
-        <section id="projetos">
-            <div class="imgBox">
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-              </div>
+            <div class="email">
+                <form target="_self" action="https://formsubmit.co/leotolotti@hotmail.com" method="POST">
+                    <div class="form-group">
+                      <div class="form-row">
+                        <div class="col">
+                          <input type="text" name="name" class="form-control" placeholder="Nome:" required>
+                        </div>
+                        <div class="col">
+                          <input type="email" name="email" class="form-control" placeholder="E-mail:" required>
+                          <input type="hidden" name="_captcha" value="false">
+                          <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <textarea placeholder="Mensagem:" class="form-control" name="message" rows="10" required></textarea>
+                    </div>
+                    <div class="form-group">
+                      <button type="submit" class="btn btn-lg btn-dark btn-block">Enviar</button>  
+                    </div>
+                  </form>
             </div>
-        </section>
-        <section id="contato">
-            <div class="contatos">
-                <div class="redes">
-                   <div class="imgContato">
-                    <img src="./public/imagens/linkedin.png" alt="">
-                    <a href="https://www.linkedin.com/in/leonardo-tolotti-4b9646232/">Linkedin</a>
-                </div>
-                <div class="imgContato">
-                    <img src="./public/imagens/github.png" alt="">
-                    <a href="https://github.com/LeoTolotti">Github</a>
-                </div>
-                <div class="imgContato">
-                    <img src="./public/imagens/instagram.png" alt="">
-                    <a href="https://www.instagram.com/leotolotti_/">Instagram</a>
-                </div>
-                <div class="imgContato" href=" ">
-                    <img src="./public/imagens/whatsapp.png" alt="">
-                    <a href="https://wa.me/5554999177881">Whatsapp</a>
-                </div> 
-                </div>
-            <div class="end">
-                <div class="button-up">
-                   <a href="#home">
-                    <button><img src="./public/imagens/up-arrow.png" alt=""></button>
-                    </a> 
-                </div>
-                <div class="text">
-                   <p>Em constante desenvolvimento, sempre buscando conhecimento!!</p> 
-                </div>
-                
-            </div>    
             </div>
             
         </section>
     </main>
-    <script src="script.js"></script>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="swiper.js"></script>
 </body>
 </html>
