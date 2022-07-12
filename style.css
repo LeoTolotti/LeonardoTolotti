@@ -70,7 +70,7 @@ section{
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-content: center;
-    background-image: url(./public/imagens/10.png);
+    background-image: url(./public/imagens/background.png);
     height: calc(100vh - 100px);
     background-color: #cccccc;
     background-position: center;
@@ -243,8 +243,10 @@ section{
     gap: 15px;
 }
 .projeto{
+    overflow: hidden;
     position: relative;
-    width: 100%;
+    width: auto;
+    height: 200px;
 }
 .image{
     display: block;
