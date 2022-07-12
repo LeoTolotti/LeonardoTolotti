@@ -285,7 +285,7 @@ section{
     text-decoration: none;
     color: white;
 }
-.buttomProjetos{
+.buttomProjetos a{
     width: 80px;
     height: 30px;
     border-radius: 5px;
@@ -295,14 +295,13 @@ section{
     align-items: center;
     display: flex;
     background: #1C1B29;
-}
-.buttomProjetos:hover{
-    background: #04BF58;
-}
-.buttomProjetos a{
     text-decoration: none;
     color: white;
 }
+.buttomProjetos a:hover{
+    background: #04BF58;
+}
+
 .service{
     background: #0C1524;
     height: calc(100vh - 100px);
